@@ -126,7 +126,8 @@ print("\n-------------------------------------------\n"
 # print(f"{city} sounds like a lovely place!")
 
 # Write your code below:
-
+name = input("What is your name? ");
+print(f"Welcome to learning python {name}!. So excited to see you!")
 
 # Extension 2: Integer Conversion
 # -------------------------------------------
@@ -139,7 +140,8 @@ print("\n-------------------------------------------\n"
 # Ask the user for their age and tell them how old they will be next year.
 
 # Write your code below:
-
+age = input("How old are you? ");
+print(f"Next year you will be {int(age)+1}.")
 
 # Extension 3: Case Formatting
 # -------------------------------------------
@@ -155,7 +157,9 @@ print("\n-------------------------------------------\n"
 # print(name.capitalize())
 
 # Write your code below:
-
+print(f"I love {food.upper()}!!!");
+lang = "Python"
+print(f"{name.capitalize()} is learning {lang}")
 
 # -------------------------------------------
 # SAVE YOUR PROGRESS
